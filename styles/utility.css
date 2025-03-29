@@ -19,7 +19,7 @@
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
     /* max-width: var(--max-width); Mesma coisa de cima, so feito de outra forma
     width: calc(100% - var(--px-lg) * 2); */
-    border: solid violet;
+    /* border: solid violet; */
     margin-inline: auto;
 }
 
@@ -37,12 +37,20 @@
     display: flex;
 }
 
+.items-center {
+    align-items: center;
+}
+
 .grid {
     display: grid;
 }
 
 .gap-1 {
     gap: 1rem;
+}
+
+.gap-1\.5 {
+    gap: 1.5rem;
 }
 
 @media (width >= 80em){
