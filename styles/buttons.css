@@ -11,7 +11,7 @@
 
     border-radius: .5rem;
 
-    font: var(--fw-mb) var(--fs-base)/1.5rem var(--ff-sans);
+    font: var(--fw-md) var(--fs-base)/1.5rem var(--ff-sans);
 
     cursor: pointer;
 
@@ -38,9 +38,9 @@
     font-size: var(--fs-sm);
 }
 
-.btn-mb {
+.btn-md {
     padding: .75rem 1.5rem;
-    font-size: var(--fs-mb);
+    font-size: var(--fs-base);
 }
 
 .btn-lg {

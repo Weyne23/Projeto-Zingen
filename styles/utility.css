@@ -1,13 +1,13 @@
 .py-base {
-    padding-block: var(--px-base);
+    padding-block: var(--py-base);
 }
 
 .py-lg {
-    padding-block: var(--px-lg);
+    padding-block: var(--py-lg);
 }
 
 .py-xl {
-    padding-block: var(--px-xl);
+    padding-block: var(--py-xl);
 }
 
 .px-lg {
