@@ -1,0 +1,50 @@
+.py-base {
+    padding-block: var(--px-base);
+}
+
+.py-lg {
+    padding-block: var(--px-lg);
+}
+
+.py-xl {
+    padding-block: var(--px-xl);
+}
+
+.px-lg {
+    padding-inline: var(--px-lg);
+}
+
+.container {
+    --max-width: 375px;
+    width: min(var(--max-width), 100% - var(--px-lg) * 2);
+    /* max-width: var(--max-width); Mesma coisa de cima, so feito de outra forma
+    width: calc(100% - var(--px-lg) * 2); */
+    border: solid violet;
+    margin-inline: auto;
+}
+
+.desktop-only {
+    display: none;
+    /* Vai servir para esconder elementos(divs, spans, etc) quando não for desktop */
+}
+
+.even-columns {
+    display: grid;
+    gap: 1rem;
+}
+
+@media (width >= 80em){
+    .container {
+        --max-width: 80rem;
+    }
+
+    .desktop-only {
+        display: initial;
+        /* initial serve para pegar o display inicial que o container tem por padrão, span = inline, div = block e etc */
+    }
+
+    .even-columns {
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+}
