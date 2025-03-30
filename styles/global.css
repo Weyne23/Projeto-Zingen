@@ -46,7 +46,10 @@ html {
     font-size: var(--fs-base);
     line-height: 1.6;
     color: var(--text-color-primary);
+
     overflow-x: hidden;
+
+    scroll-behavior: smooth; /* deixa a transição ao navegar por links mais suave */
 }
 
 body {
