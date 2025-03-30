@@ -55,7 +55,7 @@
         content: "";
         position: absolute;
         background-color: var(--bg-color);
-        inset: 0.09375rem; /* inset é uma abreviação das propriedades top, right, bottom e left*/
+        inset: 1px; /* inset é uma abreviação das propriedades top, right, bottom e left*/
         border-radius: inherit;
     }
     
